@@ -1,0 +1,26 @@
+{
+  "name": "@mongoosejs/bson-timestamp",
+  "version": "0.1.0",
+  "description": "Implementation of BSON timestamp type for Mongoose",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mongoosejs/mongoose-bson-timestamps.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "10.2.0",
+    "mongoose": "8.x"
+  },
+  "peerDependencies": {
+    "mongoose": "8.x",
+    "bson": "6.x"
+  }
+}
+
